@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: greenyellow;
+    display: grid;
+    overflow: hidden;
+    height: 100vh;
+    place-content: center;
+}
+.contenedor{
+    place-content: center;
+    align-content: center;
+    padding-top: 25%;
+    display: grid;
+    grid-template-columns:  30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    grid-template-rows:  30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+}
+/* 1/1/1/1
+posicion inicial vertical / posicion inicial horizontal / hasta donde se extiene desde la posicion inicial vertical / hasta donde se extiene desde la posicion inicial horizontal*/
+
+/*COLOR BLANCO*/
+.caja1,.caja3,.caja4,.caja8,.caja9,.caja14,.caja26,.caja28,.caja29,.caja32,.caja33,.caja35,.caja39,.caja40,.caja41,.caja42,.caja43,.caja44{
+    background-color: white;
+}
+.caja1{
+    grid-area: 1/1/1/5;
+}
+.caja3{
+    grid-area: 1/9/1/13;
+}
+.caja4{
+    grid-area: 2/1/2/3;
+}
+.caja8{
+    grid-area: 2/11/2/13;
+}
+.caja9{
+    grid-area: 3/1/5/2;
+}
+.caja14{
+    grid-area: 3/12/5/13;
+}
+.caja26{
+    grid-area: 7/6/9/8;
+}
+.caja28{
+    grid-area: 8/2/9/3;
+}
+.caja29{
+    grid-area: 8/11/9/12;
+}.caja28{
+    grid-area: 8/2/9/3;
+}
+.caja29{
+    grid-area: 8/11/9/12;
+}
+.caja32{
+    grid-area: 9/3/11/6;
+}
+.caja33{
+    grid-area: 9/8/11/11;
+}
+.caja35{
+    grid-area: 10/5/12/9;
+}
+.caja39{
+    grid-area: 9/1/13/2;
+}
+.caja40{
+    grid-area: 11/2/13/3;
+}
+.caja41{
+    grid-area: 12/3/13/5;
+}
+.caja42{
+    grid-area: 9/12/13/13;
+}
+.caja43{
+    grid-area: 11/11/13/13;
+}
+.caja44{
+    grid-area: 12/9/13/13;
+}
+
+/*COLOR NEGRO*/
+.caja2,.caja5,.caja7,.caja10,.caja13,.caja15,.caja17,.caja19,.caja21,.caja22,.caja23,.caja24,.caja25,.caja27,.caja30,.caja31,.caja34,.caja36,.caja37,.caja38{
+    background-color: black;
+}
+.caja2{
+    grid-area: 1/5/1/9;
+}
+.caja5{
+    grid-area: 2/3/2/5;
+}
+.caja7{
+    grid-area: 2/9/2/11;
+}
+.caja10{
+    grid-area: 5/2/3/3;
+}
+.caja13{
+    grid-area: 3/11/5/12;
+}
+.caja15{
+    grid-area: 5/1/9/1;
+}
+.caja17{
+    grid-area: 7/3/8/2;
+}
+.caja19{
+    grid-area: 6/6/7/8;
+}
+.caja21{
+    grid-area: 7/11/7/12;
+}
+.caja22{
+    grid-area: 5/12/9/13;
+}
+.caja23{
+    grid-area: 7/5/9/6;
+}
+.caja24{
+    grid-area: 7/8/9/8;
+}
+.caja25{
+    grid-area: 8/3/9/6;
+}
+.caja27{
+    grid-area: 8/9/9/11;
+}
+.caja30{
+    grid-area: 9/2/11/3;
+}
+.caja31{
+    grid-area: 9/11/11/12;
+}
+.caja34{
+    grid-area: 9/6/10/8;
+}
+.caja36{
+    grid-area: 11/3/11/5;
+}
+.caja37{
+    grid-area: 12/5/13/9;
+}
+.caja38{
+    grid-area: 11/9/12/11;
+}
+
+/*COLOR ROJO*/
+.caja6,.caja11,.caja12,.caja16,.caja18,.caja20{
+    background-color: red;
+}
+.caja6{
+    grid-area: 6/5/2/9;
+}
+.caja11{
+    grid-area: 3/5/8/3;
+}
+.caja12{
+    grid-area: 3/9/8/11;
+}
+.caja16{
+    grid-area: 5/2/7/2;
+}
+.caja18{
+    grid-area: 6/5/6/5;
+}
+.caja20{
+    grid-area: 5/8/7/12;
+}
+
+
+
